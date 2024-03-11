@@ -1,0 +1,45 @@
+.header {
+    height: 90px;
+    margin: 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.logo {
+    width: 180px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-bar a {
+    text-decoration: none; 
+    color: #000000; 
+    transition: color 0.3s ease; 
+}
+.nav-link .btn {
+    margin-left: 10px;
+}
+.registration-btn {
+    background-color:#2c5179; 
+    color: #ffffff; 
+    border: 1px solid #2c5179; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+}
+
+.registration-btn:hover {
+    background-color:#2c5179; 
+    border-color:#2c5179; 
+    color: #ffffff; 
+}
